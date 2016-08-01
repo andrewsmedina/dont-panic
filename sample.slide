@@ -46,4 +46,21 @@ Torna deploys mais simples, rápidos e divertidos (escrito em Go).
 - Don't just check errors, handle them gracefully.
 - Don't panic
 
+* Panic
+
+É uma função `built-in`, que cria um erro de execução (`runtime error`) e para
+a execução da goroutine em que o `panic` foi executado.
+
+* Panic
+
+.code panic1.go
+
+* Panic
+
+.play panic2.go
+
+* Panic
+
+.play panic3.go
+
 * Resumindo
