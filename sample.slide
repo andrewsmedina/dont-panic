@@ -63,6 +63,10 @@ a execução da goroutine em que o `panic` foi executado.
 
 .play panic3.go
 
+* panic
+
+.play panic4.go
+
 * Resumindo
 
 - Use panic quando quiser parar a execução da goroutine
