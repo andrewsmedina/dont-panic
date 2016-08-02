@@ -23,8 +23,8 @@ https://go-proverbs.github.io/
 
 * Go proverbs
 
-- Errors are just values.
-- Don't just check errors, handle them gracefully.
+- Errors are just values
+- Don't just check errors, handle them gracefully
 - Don't panic
 
 * Don't panic
@@ -54,17 +54,20 @@ a execução da goroutine em que o `panic` foi executado.
 
 .play panic5.go
 
+* Errors are just values
+
 * error
 
-.play err1.go
+.code err1.go
 
 * Criando seus próprios erros
 
-*
+* Don't just check errors, handle them gracefully
 
 * Resumindo
 
+- Não use panic
 - Use panic quando quiser parar a execução da goroutine
-- Não use panic em bibliotecas
-- Use errors :)
-- Trate erros pelo comportamento
+- Na dúvida não use panic
+- Use erros :)
+- Trate erros pelo comportamento, não pelo tipo ou conteúdo
