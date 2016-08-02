@@ -64,9 +64,11 @@ a execução da goroutine em que o `panic` foi executado.
 
 * recover
 
-.play panic5.go
+Permite um programa a gerenciar o comportamento de uma goroutina em "pânico"
 
 * recover
+
+.play panic5.go
 
 * panic
 
