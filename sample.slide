@@ -50,9 +50,31 @@ a execução da goroutine em que o `panic` foi executado.
 
 .play panic4.go
 
+* panic
+
+.play panic6.go
+
+* panic
+
+.play panic7.go
+
+* panic
+
+.code http.go
+
 * recover
 
 .play panic5.go
+
+* recover
+
+* panic
+
+.play panic8.go
+
+* Não use panic
+
+* #comofaz
 
 * Errors are just values
 
