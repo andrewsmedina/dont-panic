@@ -68,6 +68,10 @@ Permite um programa a gerenciar o comportamento de uma goroutina em "pânico"
 
 * recover
 
+.play panic9.go
+
+* recover
+
 .play panic5.go
 
 * panic
