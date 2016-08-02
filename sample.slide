@@ -67,8 +67,21 @@ a execução da goroutine em que o `panic` foi executado.
 
 .play panic4.go
 
+* recover
+
+.play panic5.go
+
+* error
+
+.play err1.go
+
+* Criando seus próprios erros
+
+*
+
 * Resumindo
 
 - Use panic quando quiser parar a execução da goroutine
 - Não use panic em bibliotecas
 - Use errors :)
+- Trate erros pelo comportamento
