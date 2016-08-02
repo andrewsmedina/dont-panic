@@ -1,4 +1,4 @@
 err := readfile(“.bashrc”)
-if strings.Contains(error.Error(), "not found") {
+if strings.Contains(err.Error(), "not found") {
   // handle error
 }
