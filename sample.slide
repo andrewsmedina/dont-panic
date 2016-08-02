@@ -21,12 +21,6 @@ Torna deploys mais simples, rápidos e divertidos (escrito em Go).
 
 https://go-proverbs.github.io/
 
-* Go proverbs
-
-- Errors are just values
-- Don't just check errors, handle them gracefully
-- Don't panic
-
 * Don't panic
 
 * panic
@@ -82,15 +76,17 @@ Permite um programa a gerenciar o comportamento de uma goroutina em "pânico"
 
 * #comofaz
 
-* Errors are just values
-
 * error
 
 .code err1.go
 
-* Criando seus próprios erros
+* error
 
-* Don't just check errors, handle them gracefully
+.play err2.go
+
+* error
+
+.play err3.go
 
 * Resumindo
 
