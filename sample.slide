@@ -76,17 +76,41 @@ Permite um programa a gerenciar o comportamento de uma goroutina em "pânico"
 
 * #comofaz
 
-* error
+* erros
 
 .code err1.go
 
-* error
+* erros
 
 .play err2.go
 
-* error
+* erros
 
 .play err3.go
+
+* erros
+
+.code err4.go
+
+- NUNCA verifique o conteúdo de err.Error()
+
+* erros
+
+.code err5.go
+
+- fácil de verificar, mas cria dependência entre pacotes
+
+* erros
+
+.code err6.go
+
+- adiciona informacão customizada ao erro, mas cria dependência entre pacotes
+
+* erros
+
+.code err7.go
+
+- verifica erro pelo comportamento, não pelo tipo =)
 
 * Resumindo
 
