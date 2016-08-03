@@ -1,6 +1,6 @@
-const ErrNotFound = stderr.New("Not Found")
+	var ErrNotFound = stderr.New("Not Found")
 
-err := readfile(".bashrc")
-if err == ErrNotFound {
-	// handle error
-}
+	err := readfile(".bashrc")
+	if err == ErrNotFound {
+		// handle error
+	}

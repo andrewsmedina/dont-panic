@@ -1,4 +1,4 @@
-const ErrNotFound = errors.New("Not found")
+var ErrNotFound = errors.New("Not found")
 
 if err == ErrNotFound {
 	//

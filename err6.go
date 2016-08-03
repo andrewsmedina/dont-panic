@@ -1,5 +1,5 @@
 type ErrNotFound struct {
-  Messagestring
+  Message string
   Err error
 }
 
